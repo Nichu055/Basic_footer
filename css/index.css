@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.footer-container{
+    background-color: aqua ;
+    padding: 3.8em;
+}
+
+.footer-container p{
+    color: white;
+    margin-left: 153px;
+}
+
+.footer{
+    width: 90%;
+    height: 80vh;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 6em;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+
+.footer-heading a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover{
+    /* the colour when you mou is on it */
+    color: #35a162;
+}
